@@ -20,7 +20,7 @@ body{
   letter-spacing: 5px;
 }
 
-.days, .hours, .minutes, .seconds {
+.days, .hours, {
   display: inline-block;
   padding: 20px;
   width: 100px;
@@ -28,20 +28,13 @@ body{
 }
 
 .days {
-  background: #EF2F3C;
+  background: #8DCAE6;
+  color: #219EBC ;
 }
 
 .hours {
-  background: #eeeeee;
-  color: #183059;
-}
-
-.minutes {
-  background: #276FBF;
-}
-
-.seconds {
-  background: #F0A202;
+  background: #8DCAE6;
+  color: #219EBC ;
 }
 
 .numbers {
@@ -103,7 +96,7 @@ body{
 </body>
 <script>
     const year = new Date().getFullYear();
-const myDate = new Date('Oct 15, 2024 00:00:00');
+const myDate = new Date('Nov 4, 2025 00:00:00');
 console.log(myDate);
 
 // countdown
